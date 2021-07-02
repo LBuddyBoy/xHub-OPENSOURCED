@@ -8,3 +8,5 @@
  Twitter: @LBuddyBoy
 
  Have Fun!
+ 
+ Note: EVERYTHING is configurable... and I mean everything.
