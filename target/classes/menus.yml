@@ -1,0 +1,403 @@
+# Actions:
+# 
+# Type: "OPEN"
+# GUI-Name: "<gui-name>"
+#
+# Type: "QUEUE"
+# Queue-Name: "<queue-name>"
+#
+# Type: "HAT"
+# Hat-Name: "<hat-name>"
+#
+# Type: "TRAILS"
+# Hat-Name: "<trail-name>"
+#
+# Type: "GEAR"
+# Gear-Name: "<gear-name>"
+#
+# Type: "RESET"
+#
+# Type: "HUB"
+# Hub-Name: "<hub-name>"
+#
+# Type: "MESSAGE"
+# Message:
+#  - ''
+Auto-Fill:
+  Material: STAINED_GLASS_PANE
+  Data: 0
+
+menus:
+
+  # SERVER SELECTOR
+
+  SELECTOR:
+    Title: "&b&lServer Selector"
+    Size: 27
+    Auto-Fill: true
+
+    Items:
+      kits:
+        # Action
+        Type: "QUEUE"
+        GUI-Name: "kits"
+
+        Display: "&3&lKitmap"
+        Lore:
+          - '&7&m--------------------------'
+          - '&3&lServer Information'
+          - '&f » &bDonor-Kits&f: &aEnabled'
+          - '&f » &bFaction Size&f: 25 Man'
+          - '&f » &bCombat-Place&f: &aEnabled'
+          - '&f » &bSOTW&f: Soon'
+          - ''
+          - '&3&lServer Stats'
+          - '&f » &bStatus&f: &r%pinger_isonline_localhost:25568%'
+          - '&f » &bOnline&f: &r%bungee_kitmap%/1000'
+          - ''
+          - '&aClick to join the &bKitmap&a queue.'
+          - '&7&m--------------------------'
+        Material: "BOW"
+        Color: ""
+        Data: 0
+        Slot: 11
+      hcfservers:
+        # Action
+        Type: "OPEN"
+        GUI-Name: "HCFSERVERS"
+
+        Color: ""
+        Material: "BOOK"
+        Lore:
+          - '&7Click to view all of the available hcf servers!'
+        Data: 0
+        Display: "&b&lHCF Servers Menu"
+        Slot: 13
+      Practice:
+        Type: "QUEUE"
+        Queue-Name: "practice"
+
+        Display: "&3&lPractice"
+        Lore:
+          - '&7&m--------------------------'
+          - '&3&lServer Information'
+          - '&f » &bLeaderboards&f: &aEnabled'
+          - '&f » &bParty''s & Clans'
+          - '&f » &bNEW LADDERS'
+          - '&f » &bRelease&f: Soon'
+          - ''
+          - '&3&lServer Stats'
+          - '&f » &bStatus&f: &r%pinger_isonline_localhost:25569%'
+          - '&f » &bOnline&f: &r%bungee_practice%/1000'
+          - ''
+          - '&aClick to join the &bKitmap&a queue.'
+          - '&7&m--------------------------'
+        Material: "DIAMOND_CHESTPLATE"
+        Color: ""
+        Data: 0
+        Slot: 15
+  # Multi-GUI
+
+  HCFSERVERS:
+    Title: "&b&lHCF Servers"
+    Size: 27
+    Auto-Fill: true
+
+    Items:
+      10man:
+        # Action
+        Type: "QUEUE"
+        Queue-Name: "10man"
+
+        Color: ""
+        Material: "DIAMOND_SWORD"
+        Lore:
+          - '&7Click to join the queue for the &b10man HCF Server&7.'
+        Data: 0
+        Display: "&b&l10-Man HCF"
+        Slot: 12
+      5man:
+        # Action
+        Type: "QUEUE"
+        Queue-Name: "5man"
+
+        Color: ""
+        Material: "DIAMOND_SWORD"
+        Lore:
+          - '&7Click to join the queue for the &b5man HCF Server&7.'
+        Data: 0
+        Display: "&b&l5-Man HCF"
+        Slot: 14
+      Back:
+        # Action
+        Type: "OPEN"
+        GUI-Name: "SELECTOR"
+
+        Color: ""
+        Material: "SIGN"
+        Lore:
+          - '&7Click to go back to the &bServer Selector.'
+        Data: 0
+        Display: "&cGo Back"
+        Slot: 18
+  # COSMETIC GUI
+
+  COSMETIC:
+    Title: "&b&lCosmetics"
+    Size: 27
+    Auto-Fill: true
+
+    Items:
+      testSect23:
+        # Action
+        Type: "OPEN"
+        GUI-Name: "HATS"
+
+        Color: ""
+        Material: "DIAMOND_HELMET"
+        Lore:
+          - '&7Click to view all of the available hats cosmetic!'
+        Data: 0
+        Display: "&b&lHats Menu"
+        Slot: 11
+      gear:
+        # Action
+        Type: "OPEN"
+        GUI-Name: "GEAR"
+
+        Color: ""
+        Material: "DIAMOND_CHESTPLATE"
+        Lore:
+          - '&7Click to view all of the available gears cosmetic!'
+        Data: 0
+        Display: "&b&lGears Menu"
+        Slot: 13
+      trails:
+        # Action
+        Type: "OPEN"
+        GUI-Name: "TRAILS"
+
+        Color: ""
+        Material: "LEASH"
+        Lore:
+          - '&7Click to view all of the available trails cosmetic!'
+        Data: 0
+        Display: "&b&lTrails Menu"
+        Slot: 15
+      reset:
+        # Action
+        Type: "RESET"
+
+        Color: ""
+        Material: "REDSTONE_BLOCK"
+        Lore:
+          - '&7Click to reset all active cosmetics!'
+        Data: 0
+        Display: "&c&lReset Button"
+        Slot: 26
+
+  # HAT GUI
+
+  HATS:
+    Title: "&bHats"
+    Size: 9
+    Auto-Fill: true
+
+    Items:
+      diamondHat:
+        # Action
+        Type: "HAT"
+        Hat-Name: "diamond"
+
+        Color: ""
+        Material: "DIAMOND_BLOCK"
+        Lore:
+          - '&7Click to equip the &bDiamond Hat&7.'
+        Data: 0
+        Display: "&bDiamond Hat"
+        Slot: 0
+      goldHat:
+        # Action
+        Type: "HAT"
+        Hat-Name: "gold"
+
+        Color: ""
+        Material: "GOLD_BLOCK"
+        Lore:
+          - '&7Click to equip the &eGold Hat&7.'
+        Data: 0
+        Display: "&eGold Hat"
+        Slot: 1
+
+  # GEAR GUI
+
+  GEAR:
+    Title: "&bGear"
+    Size: 9
+    Auto-Fill: true
+
+    Items:
+      ironGear:
+        # Action
+        Type: "GEAR"
+        Gear-Name: "iron"
+
+        Color: ""
+        Material: "IRON_CHESTPLATE"
+        Lore:
+          - '&7Click to equip the &fIron Gear Set&7.'
+        Data: 0
+        Display: "&fGear Set"
+        Slot: 0
+      diaGear:
+        # Action
+        Type: "GEAR"
+        Gear-Name: "diamond"
+
+        Color: ""
+        Material: "DIAMOND_CHESTPLATE"
+        Lore:
+          - '&7Click to equip the &bDiamond Gear Set&7.'
+        Data: 0
+        Display: "&bDiamond Set"
+        Slot: 1
+
+  TRAILS:
+    Title: "&bTrails"
+    Size: 9
+    Auto-Fill: true
+
+    Items:
+      slime:
+        # Action
+        Type: "TRAILS"
+        Trails-Name: "slime"
+
+        Color: ""
+        Material: "SLIME_BALL"
+        Lore:
+          - '&7Click to equip the &aSlime Trail&7.'
+        Data: 0
+        Display: "&aSlime Trail"
+        Slot: 0
+      water:
+        # Action
+        Type: "TRAILS"
+        Trails-Name: "water"
+
+        Color: ""
+        Material: "WATER_BUCKET"
+        Lore:
+          - '&7Click to equip the &1Water Trail&7.'
+        Data: 0
+        Display: "&1Water Trail"
+        Slot: 1
+
+  HUBSELECTOR:
+    Title: "&b&lHub Servers"
+    Size: 9
+    Auto-Fill: true
+
+    Items:
+      hub1:
+        # Action
+        Type: "HUB"
+        Hub-Name: "hub-restricted"
+
+        Color: ""
+        Material: "ENDER_PEARL"
+        Lore:
+          - '&7Click to join &bHub Restricted&7.'
+        Data: 0
+        Display: "&b&lRestricted Hub"
+        Slot: 0
+  INFORMATION:
+    Title: "&b&lInformation"
+    Size: 9
+    Auto-Fill: true
+
+    Items:
+      discord:
+        # Action
+        Type: "MESSAGE"
+        Message:
+          - '&fJoin our discord @ &5invite.gg/xenlan'
+
+        Color: ""
+        Material: "INK_SACK"
+        Lore:
+          - '&7Click for more information on our discord server&7.'
+        Data: 5
+        Display: "&5&lDiscord Information"
+        Slot: 0
+      ts:
+        # Action
+        Type: "MESSAGE"
+        Message:
+          - '&fJoin our teamspeak @ &3ts.xenlan.services'
+
+        Color: ""
+        Material: "INK_SACK"
+        Lore:
+          - '&7Click for more information on our teamspeak server&7.'
+        Data: 6
+        Display: "&3&lTeamspeak Information"
+        Slot: 4
+
+      twitter:
+        # Action
+        Type: "MESSAGE"
+        Message:
+          - '&fFollow our twitter @ &btwitter.com/xenlanservices'
+
+        Color: ""
+        Material: "INK_SACK"
+        Lore:
+          - '&7Click for more information on our twitter&7.'
+        Data: 12
+        Display: "&b&lTwitter Information"
+        Slot: 8
+  # Multi-GUI
+
+  HCFSERVERS:
+    Title: "&b&lHCF Servers"
+    Size: 27
+    Auto-Fill: true
+
+    Items:
+      10man:
+        # Action
+        Type: "QUEUE"
+        Queue-Name: "10man"
+
+        Color: ""
+        Material: "DIAMOND_SWORD"
+        Lore:
+          - '&7Click to join the queue for the &b10man HCF Server&7.'
+        Data: 0
+        Display: "&b&l10-Man HCF"
+        Slot: 12
+      5man:
+        # Action
+        Type: "QUEUE"
+        Queue-Name: "5man"
+
+        Color: ""
+        Material: "DIAMOND_SWORD"
+        Lore:
+          - '&7Click to join the queue for the &b5man HCF Server&7.'
+        Data: 0
+        Display: "&b&l5-Man HCF"
+        Slot: 14
+      Back:
+        # Action
+        Type: "OPEN"
+        GUI-Name: "SELECTOR"
+
+        Color: ""
+        Material: "SIGN"
+        Lore:
+          - '&7Click to go back to the &bServer Selector.'
+        Data: 0
+        Display: "&cGo Back"
+        Slot: 18

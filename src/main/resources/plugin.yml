@@ -1,0 +1,29 @@
+name: xHub
+main: services.xenlan.hub.xHub
+version: 0.9
+author: Xenlan Services
+softdepend:
+  - EzQueue
+  - Mizu
+  - AquaCore
+  - Hestia
+  - Vault
+  - PlaceholderAPI
+  - LunarAPI
+
+commands:
+  xhub:
+  stats:
+  pvp:
+  pausequeue:
+  joinqueue:
+    aliases:
+      - play
+  leavequeue:
+  parkour:
+  customtimer:
+    aliases:
+      - timer
+  leavepvp:
+    aliases:
+      - leaveffa

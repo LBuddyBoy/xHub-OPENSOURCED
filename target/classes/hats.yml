@@ -1,0 +1,15 @@
+hats:
+  diamond:
+    Material: "DIAMOND_BLOCK" # Note: these can ONLY be blocks
+    Name: "&b&lDiamond Hat"
+    Data: 0
+    Color: ""
+    Lore:
+      - '&7&oPurchase this at invite.gg/xenlan'
+  gold:
+    Material: "GOLD_BLOCK" # Note: these can ONLY be blocks
+    Name: "&e&lGold Hat"
+    Data: 0
+    Color: ""
+    Lore:
+      - '&7&oPurchase this at invite.gg/xenlan'

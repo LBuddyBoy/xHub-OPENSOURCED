@@ -1,0 +1,10 @@
+gear:
+  iron: # Note: these can ONLY be armor
+    Helmet:
+      '0': GLASS;1;0;&f&lIron Set;0;;;;
+    Chestplate:
+      '0': DIAMOND_CHESTPLATE;1;0;&f&lIron Set;0;;;;
+    Leggings:
+      '0': DIAMOND_LEGGINGS;1;0;&f&lIron Set;0;;;;
+    Boots:
+      '0': DIAMOND_BOOTS;1;0;&f&lIron Set;0;;;;

@@ -1,0 +1,213 @@
+License: ""
+
+# Rank-Core Options: Vault, Hestia, Zoom, AquaCore, Mizu
+# Queue-System Options: EZQUEUE, CUSTOM, PORTAL.
+
+Rank-Core: ""
+Queue-System: ""
+PlaceholderAPI-Support: true
+BungeeCord: false
+
+Join-Message:
+  Enabled: true
+  Message:
+    - '&7&m--------------'
+    - '&bWelcome to &fxHub'
+    - '&7&m--------------'
+    - '&b&lUseful Links'
+    - ''
+    - '&fSupport: &binvite.gg/xenlan'
+    - ''
+    - '&7&m--------------'
+
+Parkour-Inventory:
+  Leave:
+    Amount: 1
+    Name: "&b&lLeave Parkour"
+    Lore:
+      - '&7Click to leave the parkour course.'
+    Material: "REDSTONE"
+    Data: 0
+    Slot: 5
+    Action: "[LEAVE-PARKOUR]"
+    Click:
+      - 'RIGHT_CLICK_BLOCK'
+      - 'RIGHT_CLICK_AIR'
+    Open-Message:
+      Enabled: false
+      Message:
+        - ''
+  LastCheckpoint:
+    Amount: 1
+    Name: "&b&lTeleport Back"
+    Lore:
+      - '&7Click to teleport back to your most recent checkpoint.'
+      - '&7Note: If you clicked none you will be teleported to the parkour spawn!'
+    Material: "FEATHER"
+    Data: 0
+    Slot: 7
+    Action: "[LAST-CHECKPOINT]"
+    Click:
+      - 'RIGHT_CLICK_BLOCK'
+      - 'RIGHT_CLICK_AIR'
+    Open-Message:
+      Enabled: false
+      Message:
+        - ''
+
+Join-Inventory:
+  ServerSelect:
+    Amount: 1
+    Name: "&b&lServer Selector"
+    Lore:
+      - '&7Right Click to open the &bServer Selector.'
+    Material: "COMPASS"
+    Data: 0
+    Slot: 1
+    Action: "[GUI-SELECTOR]"
+    Click:
+      - 'RIGHT_CLICK_BLOCK'
+      - 'RIGHT_CLICK_AIR'
+    Open-Message:
+      Enabled: true
+      Message:
+        - '&fYou have just opened the &bServer Selector'
+  Enderbutt:
+    Amount: 64
+    Name: "&b&lEnderbutt"
+    Lore:
+      - '&7Right click to launch this enderbutt.'
+    Material: "ENDER_PEARL"
+    Data: 0
+    Slot: 2
+    Action: "[ENDERBUTT]"
+    Click:
+      - 'RIGHT_CLICK_AIR'
+    Open-Message:
+      Enabled: false
+      Message:
+        - ''
+  Vanish:
+    Amount: 1
+    Name: "&b&lVanish Tool"
+    Lore:
+      - '&7Right Click to toggle players on/off'
+    Material: "FEATHER"
+    Data: 0
+    Slot: 3
+    Action: "[TOGGLE-PLAYERS]"
+    Click:
+      - 'RIGHT_CLICK_BLOCK'
+      - 'RIGHT_CLICK_AIR'
+    Open-Message:
+      Enabled: false
+      Message:
+        - ''
+  PvPMode:
+    Amount: 1
+    Name: "&b&lPvP Mode"
+    Lore:
+      - '&7Right Click to view the pvp mode gui'
+    Material: "DIAMOND_SWORD"
+    Data: 0
+    Slot: 5
+    Action: "[GUI-PVP]"
+    Click:
+      - 'RIGHT_CLICK_BLOCK'
+      - 'RIGHT_CLICK_AIR'
+    Open-Message:
+      Enabled: true
+      Message:
+        - '&fYou have just opened the &bPvP Mode Menu'
+  Hub-Selector:
+    Amount: 1
+    Name: "&b&lHub Selector"
+    Lore:
+      - '&7Right Click to open up the hub selector menu!'
+    Material: "NETHER_STAR"
+    Data: 0
+    Slot: 6
+    Action: "[GUI-HUBSELECTOR]"
+    Click:
+      - 'RIGHT_CLICK_BLOCK'
+      - 'RIGHT_CLICK_AIR'
+    Open-Message:
+      Enabled: true
+      Message:
+        - '&fYou have just opened the &bHub-Selector Menu'
+  Info:
+    Amount: 1
+    Name: "&b&lInformation"
+    Lore:
+      - '&7Right Click to view some information on the server'
+    Material: "BEACON"
+    Data: 0
+    Slot: 7
+    Action: "[GUI-INFORMATION]"
+    Click:
+      - 'RIGHT_CLICK_BLOCK'
+      - 'RIGHT_CLICK_AIR'
+    Open-Message:
+      Enabled: true
+      Message:
+        - '&fYou have just opened the &bInformation Menu'
+  Cosmetic:
+    Amount: 1
+    Name: "&b&lCosmetics"
+    Lore:
+      - '&7Right Click to view some of our cosmetics'
+    Material: "CHEST"
+    Data: 0
+    Slot: 8
+    Action: "[GUI-COSMETIC]"
+    Click:
+      - 'RIGHT_CLICK_BLOCK'
+      - 'RIGHT_CLICK_AIR'
+    Open-Message:
+      Enabled: true
+      Message:
+        - '&fYou have just opened the &bCosmetic Menu'
+  Parkour:
+    Amount: 1
+    Name: "&b&lParkour"
+    Lore:
+      - '&7Click to activate the parkour course'
+    Material: "DIAMOND"
+    Data: 0
+    Slot: 9
+    Action: "[ACTIVATE-PARKOUR]"
+    Click:
+      - 'RIGHT_CLICK_BLOCK'
+      - 'RIGHT_CLICK_AIR'
+    Open-Message:
+      Enabled: false
+      Message:
+        - ''
+
+# CLICK TYPES
+
+# RIGHT_CLICK_BLOCK
+# RIGHT_CLICK_AIR
+# RIGHT_CLICK_AIR
+# LEFT_CLICK_AIR
+# LEFT_CLICK_BLOCK
+
+# ACTIONS
+
+# [GUI-<GUI-NAME>] - Opens a selected gui
+# [GUI-PVP] - Opens the pvp gui
+# [ACTIVATE-PARKOUR] - Activates the parkour mode
+# [LEAVE-PARKOUR] - DeActivates the parkour mode
+# [TOGGLE-PLAYERS] - Toggles player visibility on/off
+# [ENDERBUTT] - Throws an enderbutt
+
+# NEW PERMS (Sorry they needed a revamp they weren't very clear.)
+# xhub.command.xhub - grants access to /xhub
+# xhub.command.xhub - grants access to /xhub
+# xhub.command.pvp.admin - grants access to /pvp setspawn
+# xhub.command.parkour.admin - grants access to /parkour setspawn
+# xhub.command.customtimer - grants access to /customtimer
+# xhub.command.parkour - grants access to /parkour
+# trails perms: trails.yml
+# gear perms: gear.yml
+# hats perms: hats.yml

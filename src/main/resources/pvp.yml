@@ -1,0 +1,53 @@
+PvP-Mode:
+  Enabled: true
+  EnderPearl-Cooldown:
+    Enabled: true
+    Time: 15
+
+GUI:
+  Auto-Fill:
+    Enabled: true
+    Material: "STAINED_GLASS_PANE"
+    Data: 7
+
+  Settings:
+    Size: 27
+    Title: "&bPvP Kit Selector"
+
+  Items: # YOU CAN NOW CREATE AS MANY AS YOU WANT
+    Diamond:
+      Kit-Name: "Diamond" # Make sure this is always linked up with the one in inventories.yml!
+      Color: "AQUA"
+      Name: "&b&lDiamond Kit"
+      Lore:
+        - '&7Left Click to activate the &bDiamond Kit&7.'
+      Material: "DIAMOND_CHESTPLATE"
+      Mat-Color: ""
+      Data: 0
+      Slot: 12
+    Archer:
+      Kit-Name: "Archer"
+      Color: "LIGHT_PURPLE"
+      Name: "&d&lArcher Kit"
+      Lore:
+        - '&7Left Click to activate the &dArcher Kit&7.'
+      Material: "BOW"
+      Mat-Color: ""
+      Data: 0
+      Slot: 14
+    Axe:
+      Kit-Name: "Axe"
+      Color: "RED"
+      Name: "&c&lAxe Kit"
+      Lore:
+        - '&7Left Click to activate the &cAxe Kit&7.'
+      Material: "IRON_AXE"
+      Mat-Color: ""
+      Data: 0
+      Slot: 16
+Spawn:
+  X: 0
+  Y: 100
+  Z: 0
+  Yaw: 0
+  Pitch: 0

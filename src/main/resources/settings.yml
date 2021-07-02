@@ -1,0 +1,119 @@
+# 
+# For sounds refer to this: https://pastebin.com/Pqh79kyM
+#
+
+Chat: # Note: %tag% only works with AquaCore, Hestia, Mizu
+  Enabled: true
+  Format: '%kills% %prefix% %name% %tag% &7: %message%'
+
+LunarClientAPI:
+  Enabled: true
+  Above-Head:
+    Enabled: true
+    Format: "%prefix%"
+    PvP-Display: "&3(PvP)"
+    Format-Nametag: "&b%name% %pvp%"
+    Staff-Tag:
+      Enabled: true
+      Permission: "xhub.staff"
+      Format: "%prefix% | &bStaff"
+
+Tab-List: true
+Scoreboard: true
+
+Restricted-Hub: # Permission: xhub.restricted
+  Enabled: true
+  Bungee-Name: "hub-restricted"
+
+Vault-Ranks:
+  Owner:
+    Group-Name: Owner
+    Color: '&4'
+    Display-Name: Founder
+  User:
+    Group-Name: default
+    Color: '&e'
+    Display-Name: User
+
+Join-Effects:
+  SPEED: # Make as many as you want!
+    Effect: "SPEED"
+    Power: 5
+
+Join-Message:
+  Enabled: false
+  Message:
+    - ''
+    - '&7[JOIN]&b %prefix% %player%&7 has joined the server.'
+    - ''
+Leave-Message:
+  Enabled: false
+  Message:
+    - ''
+    - '&7[LEAVE]&b %prefix% %player%&7 has left the server.'
+    - ''
+Spawn:
+  Enabled: true
+  X: 3.795288588427037
+  Y: 87.0
+  Z: -1.5823115708089057
+  Pitch: 32.549896
+  Yaw: -94.499855
+
+AntiVoid:
+  Enabled: true
+  Min-Y: 10
+  Max-Y: 256
+
+Double-Jump:
+  Enabled: true
+  Boost: 1.5
+  Sound: EXPLODE
+
+Bump-Plate:
+  Material: GOLD_PLATE
+  Sound: GHAST_FIREBALL
+  Boost:
+    X: 2
+    Y: 3
+    Z: 2
+
+Parkour:
+  Start-Material: STONE_PLATE # Leave empty if you want to use a custom item
+  CheckPoint-Material: WOOD_PLATE
+  Start-Sound:
+    Enabled: true
+    Sound: "LEVEL_UP"
+  Left-Sound:
+    Enabled: true
+    Sound: "BLAZE_HIT"
+  Finish-Sound: # this makes a sound for all players
+    Enabled: true
+    Sound: "ENDERDRAGON_GROWL"
+  Effects:
+    Speed:
+      Type: "SPEED"
+      Amplifier: 2
+  Start-Location:
+    Enabled: true
+    X: 25
+    Y: 87
+    Z: 25
+    Pitch: 0
+    Yaw: 0
+  Broadcast:
+    Enabled: true
+    Message:
+      - ''
+      - '&b%player%&f has successfully completed the parkour!'
+      - ''
+  Finish-Sign:
+    Line-1: ''
+    Line-2: '&b[Finish]'
+    Line-3: '&7Click me!'
+    Line-4: ''
+
+EnderButt:
+  Ride-Pearl: true
+  Sound: FIREWORK_LAUNCH
+  Boost: 1.5 # this doesnt really matter unless you turn off ride-pearl.

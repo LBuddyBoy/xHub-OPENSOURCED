@@ -1,0 +1,185 @@
+Kits:
+  Diamond:
+    Kit-Name: "Diamond"
+    Effects:
+      Speed:
+        Name: "SPEED"
+        Time: 100000
+        Power: 2
+      FireRes:
+        Name: "FIRE_RESISTANCE"
+        Time: 100000
+        Power: 1
+    Armor:
+      Helmet:
+        '0': DIAMOND_HELMET;1;0;&c&lPvP Helmet;0;;;;PROTECTION_ENVIRONMENTAL:1,DURABILITY:3
+      Chestplate:
+        '0': DIAMOND_CHESTPLATE;1;0;&c&lPvP Chestplate;0;;;;PROTECTION_ENVIRONMENTAL:1,DURABILITY:3
+      Leggings:
+        '0': DIAMOND_LEGGINGS;1;0;&c&lPvP Leggings;0;;;;PROTECTION_ENVIRONMENTAL:1,DURABILITY:3
+      Boots:
+        '0': DIAMOND_BOOTS;1;0;&c&lPvP Boots;0;;;;PROTECTION_ENVIRONMENTAL:1,DURABILITY:3
+
+    Contents:
+      '0': DIAMOND_SWORD;1;0;&c&lPvP Sword;0;;;;DAMAGE_ALL:2,FIRE_ASPECT:2
+      '1': ENDER_PEARL;16;0;;0;;;;
+      '2': POTION;1;16421;;16421;;;;
+      '3': POTION;1;16421;;16421;;;;
+      '4': POTION;1;16421;;16421;;;;
+      '5': POTION;1;16421;;16421;;;;
+      '6': POTION;1;16421;;16421;;;;
+      '7': POTION;1;16421;;16421;;;;
+      '8': COOKED_BEEF;32;0;;0;;;;
+      '9': POTION;1;16421;;16421;;;;
+      '10': POTION;1;16421;;16421;;;;
+      '11': POTION;1;16421;;16421;;;;
+      '12': POTION;1;16421;;16421;;;;
+      '13': POTION;1;16421;;16421;;;;
+      '14': POTION;1;16421;;16421;;;;
+      '15': POTION;1;16421;;16421;;;;
+      '16': POTION;1;16421;;16421;;;;
+      '17': POTION;1;16421;;16421;;;;
+      '18': POTION;1;16421;;16421;;;;
+      '19': POTION;1;16421;;16421;;;;
+      '20': POTION;1;16421;;16421;;;;
+      '21': POTION;1;16421;;16421;;;;
+      '22': POTION;1;16421;;16421;;;;
+      '23': POTION;1;16421;;16421;;;;
+      '24': POTION;1;16421;;16421;;;;
+      '25': POTION;1;16421;;16421;;;;
+      '26': POTION;1;16421;;16421;;;;
+      '27': POTION;1;16421;;16421;;;;
+      '28': POTION;1;16421;;16421;;;;
+      '29': POTION;1;16421;;16421;;;;
+      '30': POTION;1;16421;;16421;;;;
+      '31': POTION;1;16421;;16421;;;;
+      '32': POTION;1;16421;;16421;;;;
+      '33': POTION;1;16421;;16421;;;;
+      '34': POTION;1;16421;;16421;;;;
+      '35': POTION;1;16421;;16421;;;;
+      '36': POTION;1;16421;;16421;;;;
+  Axe:
+    Kit-Name: "Axe"
+    Effects:
+      Speed:
+        Name: "SPEED"
+        Time: 100000
+        Power: 2
+      Res:
+        Name: "DAMAGE_RESISTANCE"
+        Time: 100000
+        Power: 2
+      FireRes:
+        Name: "FIRE_RESISTANCE"
+        Time: 100000
+        Power: 1
+    Armor:
+      Helmet:
+        '0': IRON_HELMET;1;0;&c&lPvP Helmet;0;;;;PROTECTION_ENVIRONMENTAL:2,DURABILITY:3
+      Chestplate:
+        '0': IRON_CHESTPLATE;1;0;&c&lPvP Chestplate;0;;;;PROTECTION_ENVIRONMENTAL:2,DURABILITY:3
+      Leggings:
+        '0': IRON_LEGGINGS;1;0;&c&lPvP Leggings;0;;;;PROTECTION_ENVIRONMENTAL:2,DURABILITY:3
+      Boots:
+        '0': IRON_BOOTS;1;0;&c&lPvP Boots;0;;;;PROTECTION_ENVIRONMENTAL:2,DURABILITY:3
+
+    Contents:
+      '0': IRON_AXE;1;0;&c&lPvP Axe;0;;;;DAMAGE_ALL:3,FIRE_ASPECT:2
+      '1': ENDER_PEARL;16;0;;0;;;;
+      '2': POTION;1;16421;;16421;;;;
+      '3': POTION;1;16421;;16421;;;;
+      '4': POTION;1;16421;;16421;;;;
+      '5': POTION;1;16421;;16421;;;;
+      '6': POTION;1;16421;;16421;;;;
+      '7': POTION;1;16421;;16421;;;;
+      '8': COOKED_BEEF;32;0;;0;;;;
+      '9': POTION;1;16421;;16421;;;;
+      '10': POTION;1;16421;;16421;;;;
+      '11': POTION;1;16421;;16421;;;;
+      '12': POTION;1;16421;;16421;;;;
+      '13': POTION;1;16421;;16421;;;;
+      '14': POTION;1;16421;;16421;;;;
+      '15': POTION;1;16421;;16421;;;;
+      '16': POTION;1;16421;;16421;;;;
+      '17': POTION;1;16421;;16421;;;;
+      '18': POTION;1;16421;;16421;;;;
+      '19': POTION;1;16421;;16421;;;;
+      '20': POTION;1;16421;;16421;;;;
+      '21': POTION;1;16421;;16421;;;;
+      '22': POTION;1;16421;;16421;;;;
+      '23': POTION;1;16421;;16421;;;;
+      '24': POTION;1;16421;;16421;;;;
+      '25': POTION;1;16421;;16421;;;;
+      '26': POTION;1;16421;;16421;;;;
+      '27': POTION;1;16421;;16421;;;;
+      '28': POTION;1;16421;;16421;;;;
+      '29': POTION;1;16421;;16421;;;;
+      '30': POTION;1;16421;;16421;;;;
+      '31': POTION;1;16421;;16421;;;;
+      '32': POTION;1;16421;;16421;;;;
+      '33': POTION;1;16421;;16421;;;;
+      '34': POTION;1;16421;;16421;;;;
+      '35': POTION;1;16421;;16421;;;;
+      '36': POTION;1;16421;;16421;;;;
+  Archer:
+    Kit-Name: "Archer"
+    Effects:
+      Speed:
+        Name: "SPEED"
+        Time: 100000
+        Power: 3
+      Res:
+        Name: "DAMAGE_RESISTANCE"
+        Time: 100000
+        Power: 3
+      FireRes:
+        Name: "FIRE_RESISTANCE"
+        Time: 100000
+        Power: 1
+    Armor:
+      Helmet:
+        '0': LEATHER_HELMET;1;0;&c&lPvP Helmet;0;;;;PROTECTION_ENVIRONMENTAL:3,DURABILITY:3
+      Chestplate:
+        '0': LEATHER_CHESTPLATE;1;0;&c&lPvP Chestplate;0;;;;PROTECTION_ENVIRONMENTAL:3,DURABILITY:3
+      Leggings:
+        '0': LEATHER_LEGGINGS;1;0;&c&lPvP Leggings;0;;;;PROTECTION_ENVIRONMENTAL:3,DURABILITY:3
+      Boots:
+        '0': LEATHER_BOOTS;1;0;&c&lPvP Boots;0;;;;PROTECTION_ENVIRONMENTAL:3,DURABILITY:3
+
+    Contents:
+      '0': DIAMOND_SWORD;1;0;&c&lPvP Axe;0;;;;DAMAGE_ALL:2,FIRE_ASPECT:2
+      '1': ENDER_PEARL;16;0;;0;;;;
+      '2': BOW;1;0;;0;;;;ARROW_DAMAGE:5, ARROW_INFINITE:1
+      '3': POTION;1;16421;;16421;;;;
+      '4': POTION;1;16421;;16421;;;;
+      '5': POTION;1;16421;;16421;;;;
+      '6': POTION;1;16421;;16421;;;;
+      '7': POTION;1;16421;;16421;;;;
+      '8': COOKED_BEEF;32;0;;0;;;;
+      '9': POTION;1;16421;;16421;;;;
+      '10': POTION;1;16421;;16421;;;;
+      '11': POTION;1;16421;;16421;;;;
+      '12': POTION;1;16421;;16421;;;;
+      '13': POTION;1;16421;;16421;;;;
+      '14': POTION;1;16421;;16421;;;;
+      '15': POTION;1;16421;;16421;;;;
+      '16': POTION;1;16421;;16421;;;;
+      '17': POTION;1;16421;;16421;;;;
+      '18': POTION;1;16421;;16421;;;;
+      '19': POTION;1;16421;;16421;;;;
+      '20': POTION;1;16421;;16421;;;;
+      '21': POTION;1;16421;;16421;;;;
+      '22': POTION;1;16421;;16421;;;;
+      '23': POTION;1;16421;;16421;;;;
+      '24': POTION;1;16421;;16421;;;;
+      '25': POTION;1;16421;;16421;;;;
+      '26': POTION;1;16421;;16421;;;;
+      '27': POTION;1;16421;;16421;;;;
+      '28': POTION;1;16421;;16421;;;;
+      '29': POTION;1;16421;;16421;;;;
+      '30': POTION;1;16421;;16421;;;;
+      '31': POTION;1;16421;;16421;;;;
+      '32': POTION;1;16421;;16421;;;;
+      '33': POTION;1;16421;;16421;;;;
+      '34': POTION;1;16421;;16421;;;;
+      '35': ARROW;64;0;;0;;;;

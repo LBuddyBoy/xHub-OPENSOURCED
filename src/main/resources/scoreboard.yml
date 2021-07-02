@@ -1,0 +1,45 @@
+Scoreboard:
+  Title: "&b&lxHub &f| Hub"
+  Extra-Seperator: '&7&m---------------' # If you have enderpearl or combat tag on scoreboard enabled this will be what is added at the end of the scoreboard
+
+  Combat-Tag:
+    Enabled: true
+    Show-On-ScoreBoard: true
+    Time: 15
+    Display: "&c&lCombat Tag"
+  EnderPearl-Cooldown:
+    Enabled:
+    Show-On-ScoreBoard: true
+    Display: "&b&lEnderpearl"
+  # I don't suggest adding too many lines of scoreboard or customtimers and pvp mode might interfere a little
+  Default:
+    - '&7&m---------------'
+    - '&b&lServer Stats'
+    - '&f » Network: &b%online%/1000'
+    - '&f » HCF: &b%bungee_server1%/1000'
+    - '&f » Practice: &b%bungee_practice%/1000'
+    - ''
+    - '&b&lRank'
+    - '&r%rank%'
+    - ''
+    - '&7&oinvite.gg/xenlan'
+    - '&7&m---------------'
+  PvP-Mode:
+    - '&7&m---------------'
+    - ''
+    - '&b&lPing&f: %player_colored_ping%' # requires you to do /papi ecloud download Player
+    - ''
+    - '&b&lKit&f: %kit%'
+    - ''
+    - '&c/leavepvp to disengage!'
+    - '&7&m---------------'
+  Queued:
+    - '&7&m---------------'
+    - '&b&lQueue &f(%queue%)'
+    - '&b#%queue-pos%&f out of &b%queue-size%'
+    - ''
+    - '&b&lRank'
+    - '&r%rank%'
+    - ''
+    - '&7&oinvite.gg/xenlan'
+    - '&7&m---------------'

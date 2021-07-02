@@ -1,0 +1,51 @@
+Cosmetics:
+
+  Auto-Fill:
+    Enabled: true
+    Material: "STAINED_GLASS_PANE"
+    Data: 7
+
+  Settings:
+    Size: 27
+    Title: "&bCosmetics"
+
+  Items:
+    Trails-Button:
+      Name: "&b&lTrails Menu"
+      Lore:
+        - '&7Left Click to view all of the &bTrails&7.'
+      Material: "SADDLE"
+      Color: ""
+      Data: 0
+      Slot: 15
+      Action: "[GUI-TRAILS]"
+
+    Gear-Button:
+      Name: "&b&lGear Menu"
+      Lore:
+        - '&7Left Click to view all of the &bGear&7.'
+      Material: "DIAMOND_CHESTPLATE"
+      Color: ""
+      Data: 0
+      Slot: 14
+      Action: "[GUI-GEAR]"
+
+    Hats-Button:
+      Name: "&b&lHats Menu"
+      Lore:
+        - '&7Left Click to view all of the &bHats&7.'
+      Material: "SKULL_ITEM"
+      Color: ""
+      Data: 0
+      Slot: 13
+      Action: "[GUI-HATS]"
+
+    Reset-Button:
+      Name: "&c&lReset Button"
+      Lore:
+        - '&7Left Click to reset any active cosmetic.'
+      Material: "REDSTONE"
+      Color: ""
+      Data: 0
+      Slot: 23
+      Action: "[RESET-COSMETICS]"

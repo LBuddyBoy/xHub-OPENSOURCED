@@ -1,0 +1,139 @@
+No-Perm: "&cNo permission."
+
+Help-Message:
+  - '&7&m-------------------'
+  - '&b&lxHub Help'
+  - '&7&m-------------------'
+  - ''
+  - '&7 - /xhub reload - &breloads all configuration files'
+  - '&7 - /xhub setspawn - &bset the spawn for the joining players.'
+  - '&7 - /xhub buildmode - &bactivate the ability to build and break anything.'
+  - '&7 - /xhub help - &bshow this message.'
+  - ''
+  - '&7&m-------------------'
+
+Parkour-Started:
+  - ''
+  - '&fYou have just &bstarted&f playing the &bParkour&f!'
+  - ''
+
+Parkour-Left:
+  - ''
+  - '&fYou have just &bstopped&f playing the &bParkour&f!'
+  - ''
+
+CheckPoint-Set:
+  - '&aYou set your checkpoint at your current location!'
+
+CheckPoint-Already-Set:
+  - '&cYour checkpoint is already set there.'
+
+# Check the settings.yml for the broadcast message!
+
+Parkour-Help:
+  - '&7&m-------------------'
+  - '&b&lParkour Help'
+  - '&7&m-------------------'
+  - ''
+  - '&7 - /parkour setspawn - &bset the spawn upon clicking the activation pressure plate.'
+  - ''
+  - '&7&m-------------------'
+
+EnderPearl-Cooldown-Message:
+  Enabled: true
+  Message:
+    - '&cYou cannot use an enderpearl for &l%time%&c more seconds.'
+
+Build-Mode:
+  Activated:
+    - '&fYour &bbuilder mode&f has been &aactivated&f.'
+  DeActivated:
+    - '&fYour &bbuilder mode&f has been &4deactivated&f.'
+
+PvP-Help-Message:
+  - '&7&m-------------------'
+  - '&b&lPvP Help'
+  - '&7&m-------------------'
+  - ''
+  - '&7 - /pvp setspawn - &bsets the pvp arena location.'
+  - ''
+  - '&7&m-------------------'
+
+Turned-PvP-On:
+  - '&fYou have just &bengaged&f your &bPvP Mode&f! Good Luck!'
+
+Turned-PvP-Off:
+  - '&fYou have just &bdisengaged&f your &bPvP Mode&f! Good Luck!'
+
+Is-Combat-Tagged:
+  - '&fYou cannot leave the &bPvP Arena&f whilst &cCombat Tagged.'
+
+Players-Off:
+  - '&cYou can no longer see players.'
+Players-On:
+  - '&aYou can now longer see players.'
+
+No-Active-Cosmetic:
+  - '&cYou don''t have any active cosmetic.'
+Already-Active:
+  - '&cYou already have an active cosmetic.'
+DeActivated-Cosmetic:
+  - '&cYou have just reset your active cosmetics.'
+Activated-Cosmetic:
+  - '&fYou have just activated the &r%cosmetic% &aactivated&f!'
+
+Queue:
+  Already-In-Queue:
+    - '&cYou are already in a queue.'
+  Joined:
+    - '&fYou joined the &b%queue%&f.'
+
+Stats-Message:
+  - ''
+  - '&b&l%player%&f''s Statistics'
+  - ''
+  - ' &f- &7Kills: &b%kills%'
+  - ' &f- &7Deaths: &b%deaths%'
+  - ''
+
+Death-Message:
+  Enabled: true
+  Message:
+    - '&f[&b%kills-victim%&f]&b%victim% &fpaid the price and was killed by &f[&b%kills-killer%&f]&b%killer%'
+
+CustomTimer-Messages:
+  Help-Message:
+    - '&7&m-------------------'
+    - '&b&lCustomTimer Help'
+    - '&7&m-------------------'
+    - ''
+    - ' &f- /customtimer start <name> <time> <display> - &bcreates customtimer'
+    - ' &f- /customtimer stop <name> - &bstop a customtimer'
+    - ' &f- /customtimer list - &bmakes a list of customtimers'
+    - ''
+    - '&7&m-------------------'
+  Invalid-Timer:
+    - '&cThat timer does not exist.'
+  Timer-Already-Exists:
+    - '&cThe timer &l%timer%&a already exists. Try a different name.'
+  No-Timers-Active:
+    - '&cThere are currently no active timers.'
+  Created-Customtimer:
+    - '&aYou have successfully started a customtimer with the name of &l%timer%&a!'
+  Stopped-Customtimer:
+    - '&cYou have just stopped the customtimer &l%timer%&c!'
+
+QUEUE:
+  PAUSED:
+    - '&cThe queue for you server is currently paused. Please wait patiently while the server works on getting up'
+    - '&b&lQueue Info'
+    - '&fName: &b%queue%'
+    - '&fPosition: &b%pos%/%size%'
+  JOINED:
+    - '&fYou have joined the queue for &b%queue%&e.'
+  LEFT:
+    - '&fYou have left the queue for &b%queue%&e.'
+  NOT-IN-QUEUE:
+    - '&cYou are not in a queue.'
+  HIGHER-PRIORITY:
+    - '&eSomeone with higher priority has joined your queue.'

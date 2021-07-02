@@ -1,0 +1,6 @@
+xhub.command.xhub - grants access to /xhub
+xhub.command.pvp.admin - grants access to /pvp setspawn
+xhub.command.customtimer - grants access to /customtimer
+xhub.command.parkour - grants access to /parkour
+xhub.trails.flame - gives access to the flame trail
+xhub.trails.water - gives access to the flame trail

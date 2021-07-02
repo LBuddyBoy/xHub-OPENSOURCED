@@ -1,0 +1,5 @@
+trails:
+  slime:
+    Effect: "SLIME"
+  water:
+    Effect: "WATERDRIP"
